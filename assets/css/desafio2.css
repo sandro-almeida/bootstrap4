@@ -1,0 +1,68 @@
+/* html elements */
+figure {
+    margin: 0.1rem;
+    width: 2rem;
+    height: auto;
+}
+
+small {
+    font-size: 0.6rem;
+}
+
+ul {
+    border-top: 2rem solid #f8f8f8;
+}
+
+li {
+    background-color: #ffffff;
+    max-height: 8vh !important;
+}
+
+/* classes */
+.barra-superior {
+    background-color: #eeeeee;
+    border: 0.05rem solid #dbdbdb;
+    max-height: 8vh !important;
+}
+
+.barra-superior-2 {
+    background-color: #eeeeee;
+    border-left-width: 0rem !important;
+}
+
+.contador {
+    background-color: #09d261;
+    border-radius: 0.75rem;
+    color: white;
+    font-size: 0.7rem;
+    min-width: 0.8rem;
+    text-align: center;
+}
+
+.d-flex.flex-grow-1 {
+    border-bottom: 0.1rem solid #f8f8f8;
+}
+
+.horario-mensagem {
+    font-size: 0.5rem;
+    color: #999999;
+}
+
+.nome-contato {
+    font-size: 0.6rem;
+}
+
+.nome-contato-aluno {
+    color: #4d4d4d;
+}
+
+.mensagem-aluno {
+    color: #9b9b9b;
+}
+
+.box-mensagens {
+    background-color: #e5ddd5;
+    min-height: 80vh;
+    border-bottom: 2rem solid #f8f8f8;
+}
+
