@@ -1,0 +1,103 @@
+:root {
+    --cor-de-ouro: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+}
+
+.font-awesome-wrap {
+    height: 10rem;
+    background-color: transparent;
+    font-size: 10rem;
+}
+
+.estilo-ouro {
+    background-image: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+}
+
+.estilo-ouro-texto {
+    color: transparent;
+    background-image: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.font-awesome-estilo {
+    color: orange;
+}
+
+.font-awesome-estilo2 {
+    color: transparent;
+    /*color: var(--cor-de-ouro);*/
+    background-image: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.font-awesome-estilo3 {
+    color: transparent;
+    background-image: var(--cor-de-ouro);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.combina-perfil {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: black;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
+/*.estilo-ouro {
+    color: var(--cor-de-ouro);
+    background-image: linear-gradient(
+    background-color: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
+}*/

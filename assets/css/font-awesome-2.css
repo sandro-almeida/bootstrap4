@@ -1,0 +1,64 @@
+
+.font-awesome-wrap {
+    background-color: transparent;
+    font-size: 6rem;
+}
+
+.estilo-ouro {
+    background-image: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+}
+
+.estilo-ouro-texto {
+    color: transparent;
+    background-image: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.combina-perfil {
+    position: absolute;
+    top: 3.4rem;
+    left: 0.6rem;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+span {
+    text-align: center;
+}
+
+.estilo-ouro-texto2 {
+    color: transparent;
+    background-image: linear-gradient(
+        to right,
+        #462523 0%,
+        #cb9b51 33%,
+        #f6e27a 72%,
+        #f6f2c0 75%,
+        #f6e27a 78%,
+        #cb9b51 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
