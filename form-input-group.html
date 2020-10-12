@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4</title>
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+        crossorigin="anonymous"
+    >
+    <!--<link rel="stylesheet" href="assets/css/desafio3.css">-->
+</head>
+<body>
+    <!-- Formulario -->
+    <div class="container">
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">R$</span>
+            </div>
+            <input type="text" class="form-control" placeholder="0,00">
+        </div>
+        <hr>
+
+        <div class="input-group">
+        <input type="text" class="form-control" placeholder="0">
+            <div class="input-group-append">
+                <span class="input-group-text">,00</span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <label for="slug">URL</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">https://www.hcode.com.br/blog/</span>
+                </div>
+                <input type="text" class="form-control" id="slug" placeholder="Slug">
+            </div>
+        </div>
+        <hr>
+
+        
+        <div class="form-group">
+            <label for="slug">URL</label>
+            <div class="input-group flex-nowrap"> <!-- Do not wrap the text for the new line -->
+                <div class="input-group-prepend">
+                    <span class="input-group-text">https://www.hcode.com.br/blog/</span>
+                </div>
+                <input type="text" class="form-control" id="slug" placeholder="Slug">
+            </div>
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <label for="slug">URL</label>
+            <div class="input-group flex-nowrap input-group-lg"> <!-- input-group-lg changes (increases) the size of the content -->
+                <div class="input-group-prepend">
+                    <span class="input-group-text">https://www.hcode.com.br/blog/</span>
+                </div>
+                <input type="text" class="form-control" id="slug" placeholder="Slug">
+            </div>
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <label for="slug">URL</label>
+            <div class="input-group flex-nowrap input-group-sm"> <!-- input-group-sm changes (reduces) the size of the content -->
+                <div class="input-group-prepend">
+                    <span class="input-group-text">https://www.hcode.com.br/blog/</span>
+                </div>
+                <input type="text" class="form-control" id="slug" placeholder="Slug">
+            </div>
+        </div>
+        <hr>
+
+        <!-- Checkbox -->
+        <div class="form-group">
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <hr>
+
+        <!-- Radio -->
+        <div class="form-group">
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="radio">
+                    </div>
+                </div>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <hr>
+
+        <!-- Multiple inputs -->
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">First and last names</span>
+            </div>
+            <input type="text" class="form-control" placeholder="First name">
+            <input type="text" class="form-control" placeholder="Last name">
+        </div>
+        <hr>
+
+
+        <!-- Multiple prepends -->
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">R$</span>
+            </div>
+            <div class="input-group-prepend">
+                <span class="input-group-text">,00</span>
+            </div>
+            <input type="text" class="form-control" placeholder="0">
+        </div>
+        <hr>
+
+        <!-- Button as a prepend -->
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <button type="button" class="btn btn-primary">Ok</button>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <hr>
+
+        <!-- Dropdown as a prepend -->
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Menu</button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item">1</div>
+                    <div class="dropdown-item">2</div>
+                    <div class="dropdown-item">3</div>
+                </div>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <hr>
+
+    </div>
+
+
+
+    <script 
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+        crossorigin="anonymous">
+    </script>
+
+
+
+
+
+
+</body>
+</html>
