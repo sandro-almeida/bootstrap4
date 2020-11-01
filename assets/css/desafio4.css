@@ -1,0 +1,121 @@
+.cor-de-fundo {
+    background-color: #1B1B1B;
+}
+
+.list-group-item {
+    border: 0;
+}
+
+.list-group.list-group-horizontal {
+    overflow-x: hidden;
+}
+
+.barra-navegacao {
+    height: 3rem;
+}
+
+.sub-titulos {
+    color: #999898;
+    padding-left: 1.25rem;
+    padding-top: 1rem;
+}
+
+.tamanho-card {
+    width: 16rem;
+    height: 9rem;
+}
+
+.card-filmes {
+    min-width: 17.6rem;
+    min-height: 9.9rem;
+}
+
+.play {
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 0.2rem;
+    border-style: solid;
+    border-color: white;
+}
+
+.play-wrap {
+    vertical-align: 50%;
+}
+
+.play-wrap:hover {
+    text-decoration: none;
+}
+
+.fas.fa-play {
+    color: red;
+}
+
+.relevancia {
+    color: green;
+    margin-right: 0.2rem !important;
+}
+
+.classificacao {
+    background-color: #CDA521;
+    color: black;
+    border-radius: 0.2rem;
+    margin-right: 0.2rem !important;
+}
+
+.estilo-filme {
+    max-width: 5rem;
+    margin-right: 0.1rem !important;
+    vertical-align: top;
+    line-height: 1.2;
+}
+
+.titulo-filme {
+    margin-bottom: 0.4rem !important;
+}
+
+.filme-info {
+    padding: 0.8rem !important;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-filmes:hover > .filme-info {
+    visibility: visible;
+    opacity: 1;
+    background: rgba(0,0,0,0.6);
+    transition: opacity 0.8s linear;
+}
+
+.footer-links {
+    color: #999898;
+}
+
+.footer-links:link {
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+    color: #999898;
+}
+
+.list-group-item {
+    background-color: #1B1B1B;
+}
+
+.botao-assistir {
+    background-color: #E30F19;
+}
+
+.botao-assistir:hover {
+    background-color: red;
+}
+
+.descricao-filme {
+    color: #999898;
+}
+
+.card-principal {
+    border: 0;
+}
