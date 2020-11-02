@@ -15,19 +15,69 @@
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
 <body class="cor-de-fundo">
-    <nav class="navbar navbar-expand-lg barra-navegacao sticky-top">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a href="#" class="navbar-brand">
-            Netflix
-            <!--<img class="img img-fluid" src="docs/desafio4/assets/img/logo.png" alt="logo netflix">-->
-        </a>
 
-    </nav>
+    <nav class="navbar navbar-expand-lg barra-navegacao sticky-top">
+        <div class="d-flex align-items-center mr-auto">
+            <button type="button" class="navbar-toggler mr-2" data-toggle="collapse" data-target="#navbar1">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <a href="#" class="navbar-brand p-0">
+                <img class="img img-fluid logo" src="docs/desafio4/assets/img/logo.png" alt="logo netflix">
+            </a>
+            <ul class="navbar-nav list-inline d-none d-lg-block">
+                <li class="nav-item list-inline-item">
+                    <a href="#" class="nav-link navegacao font-weight-bold">Navegar</a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a href="#" class="nav-link text-white">Infantil</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav lista-menu">
+                <li class="nav-item mt-4">
+                    <div class="media">
+                        <img src="docs/desafio4/assets/img/avatar.jpg" class="mr-3 align-self-center avatar" alt="Avatar">
+                        <div class="media-body text-white">
+                            <div class="text-uppercase">
+                                Fulano de tal
+                            </div>
+                            <a href="#" class="link-do-menu"><small>Trocar de perfil</small></a>
+                        </div>
+                    </div>
+                </li>
+                <div class="linha-horizontal"></div>
+                <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bold link-do-menu">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bold link-do-menu">Minha lista</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bold link-do-menu">Séries de ação e aventura</a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <form action="" class="form-inline my-0">
+            <input type="search" class="form-control mr-sm-2 busca" placeholder="Busca">
+        </form>
+        <ul class="navbar-nav list-inline d-none d-lg-block">
+            <li class="nav-item list-inline-item">
+                <img src="docs/desafio4/assets/img/avatar.jpg" class="mr-3 align-self-center avatar" alt="Avatar">        
+            </li>
+            <li class="nav-item list-inline-item">
+                <div class="text-white text-uppercase">Fulano de tal</div>
+            </li>
+
+        </ul>
+       
+     </nav>
 
     <div class="card card-principal">
-        <img src="docs/desafio4/assets/img/full-banner.jpg" alt="" class="card-img">
+        <img src="docs/desafio4/assets/img/full-banner.jpg" alt="" class="card-img ml-auto imagem-principal">
         <div class="card-img-overlay text-white">
             <h2 class="card-title">Vingadores: Ultimato</h2>
             <div class="card-text">
@@ -36,7 +86,7 @@
                     <li class="list-inline-item descricao-filme">12</li>
                     <li class="list-inline-item descricao-filme">182 min</li>
                 </ul>
-                <div class="descricao-filme">
+                <div class="descricao-filme d-none d-lg-block w-50">
                     Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.
                 </div>
                 <button type="button" class="btn text-white botao-assistir font-weight-bold mt-4">ASSISTIR</button>

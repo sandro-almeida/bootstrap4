@@ -119,3 +119,82 @@
 .card-principal {
     border: 0;
 }
+
+.avatar, .logo {
+    height: 2.2rem;
+}
+
+.busca {
+    background-color: #1B1B1B;
+    height: 2rem;
+}
+
+.busca:focus {
+    background-color: #1B1B1B;
+}
+
+.navegacao {
+    color: #E30F19;
+}
+
+.navegacao:hover {
+    color: #E30F19;
+}
+
+.navbar-toggler-icon {
+    background-color: #1B1B1B;
+    color: white;
+}
+
+.link-do-menu {
+    color: #999898;
+    text-decoration: none;
+}
+
+.link-do-menu:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.lista-menu {
+    background-color: #1B1B1B;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+.linha-horizontal {
+    background-color: #999898;
+    height: 1px;
+    margin-top: 0.5rem;
+}
+
+.card.card-principal {
+    background-color: #1B1B1B;
+}
+
+@media (max-width: 991px) { 
+    .logo {
+        height: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .lista-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .imagem-principal {
+        width: 600px;
+        height: 338px;
+    }
+}
+
+@media (min-width: 993px) {
+    .imagem-principal {
+        width: 810px;
+        height: 456px;
+        margin-top: -3rem;
+    }
+}
